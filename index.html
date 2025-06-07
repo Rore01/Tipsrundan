@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobila Tipsrundan - Nyköping</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+</head>
+<body>
+  <h1>Mobila Tipsrundan - Nyköping</h1>
+  <div id="score">Poäng: 0</div>
+  <div id="distance">Avstånd till nästa plats: -</div>
+  <div id="map" style="height: 300px;"></div>
+
+  <div id="question-box" class="hidden">
+    <img id="question-image" src="" alt="Frågebild" />
+    <p id="question-text"></p>
+    <input type="text" id="answer-input" placeholder="Skriv ditt svar här" />
+    <button onclick="submitAnswer()">Svara</button>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

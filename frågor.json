@@ -1,0 +1,82 @@
+[
+  {
+    "lat": 58.7531,
+    "lng": 17.0077,
+    "fråga": "Vad heter slottet i Nyköping?",
+    "bild": "bilder/bild1.jpg",
+    "svar": "Nyköpingshus",
+    "poäng": 10
+  },
+  {
+    "lat": 58.7535,
+    "lng": 17.0092,
+    "fråga": "Vad heter torget mitt i Nyköping?",
+    "bild": "bilder/bild2.jpg",
+    "svar": "Rådhustorget",
+    "poäng": 8
+  },
+  {
+    "lat": 58.7539,
+    "lng": 17.0114,
+    "fråga": "Vilken å rinner genom Nyköping?",
+    "bild": "bilder/bild3.jpg",
+    "svar": "Nyköpingsån",
+    "poäng": 6
+  },
+  {
+    "lat": 58.7546,
+    "lng": 17.0122,
+    "fråga": "Vad heter det stora torget i Nyköping?",
+    "bild": "bilder/bild4.jpg",
+    "svar": "Stora Torget",
+    "poäng": 7
+  },
+  {
+    "lat": 58.7523,
+    "lng": 17.0117,
+    "fråga": "Vad heter parken vid rådhuset?",
+    "bild": "bilder/bild5.jpg",
+    "svar": "Rådhusparken",
+    "poäng": 5
+  },
+  {
+    "lat": 58.7512,
+    "lng": 17.0088,
+    "fråga": "Vad heter biblioteket i Nyköping?",
+    "bild": "bilder/bild6.jpg",
+    "svar": "Nyköpings Bibliotek",
+    "poäng": 8
+  },
+  {
+    "lat": 58.7504,
+    "lng": 17.0057,
+    "fråga": "Vad heter bron nära centrum?",
+    "bild": "bilder/bild7.jpg",
+    "svar": "Munkbron",
+    "poäng": 6
+  },
+  {
+    "lat": 58.7491,
+    "lng": 17.0066,
+    "fråga": "Vad heter området vid Oxbacken?",
+    "bild": "bilder/bild8.jpg",
+    "svar": "Oxbacken",
+    "poäng": 7
+  },
+  {
+    "lat": 58.7482,
+    "lng": 17.0033,
+    "fråga": "Vilken väg leder mot Mariefred?",
+    "bild": "bilder/bild9.jpg",
+    "svar": "Mariefredsvägen",
+    "poäng": 5
+  },
+  {
+    "lat": 58.7520,
+    "lng": 17.0145,
+    "fråga": "Vad heter arenan för sport i Nyköping?",
+    "bild": "bilder/bild10.jpg",
+    "svar": "Rosvalla Arena",
+    "poäng": 10
+  }
+]
