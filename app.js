@@ -1,4 +1,4 @@
-const SIMULERA = true; // sätt till true för att simulera position
+const SIMULERA = false; // sätt till true för att simulera position
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
@@ -34,7 +34,7 @@ function setupMap() {
       '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
-  // Markera alla platser på kartan
+
   questions.forEach((q, i) => {
     L.circle([q.lat, q.lng], {
       color: 'blue',
@@ -84,14 +84,14 @@ function simulatePosition() {
 function handlePosition(latitude, longitude) {
   if (!map) return;
 
-  // Visa användarens position på kartan
+
   if (userMarker) {
     userMarker.setLatLng([latitude, longitude]);
   } else {
     userMarker = L.marker([latitude, longitude], { title: 'Din position' }).addTo(map);
   }
 
-  // Visa nästa fråga på kartan med en markör (röd)
+ 
   const question = questions[currentQuestionIndex];
   if (nextMarker) {
     nextMarker.setLatLng([question.lat, question.lng]);
@@ -105,7 +105,7 @@ function handlePosition(latitude, longitude) {
     }).addTo(map);
   }
 
-  // Zooma så att både användarposition och nästa fråga syns
+
   const group = new L.featureGroup([userMarker, nextMarker]);
   map.fitBounds(group.getBounds().pad(0.5));
 
@@ -119,7 +119,7 @@ function handlePosition(latitude, longitude) {
 
 function showQuestion(question) {
   const box = document.getElementById('question-box');
-  if (!box.classList.contains('hidden')) return; // undvik flera samtidigt
+  if (!box.classList.contains('hidden')) return; 
   box.classList.remove('hidden');
   document.getElementById('question-text').textContent = question.fråga;
   document.getElementById('question-image').src = question.bild;
@@ -140,7 +140,7 @@ function submitAnswer() {
   currentQuestionIndex++;
 
   if (currentQuestionIndex < questions.length) {
-    // Fortsätt övervaka position
+
   } else {
     alert('Du har slutfört tipsrundan! Total poäng: ' + score);
   }
