@@ -1,4 +1,4 @@
-const SIMULERA = false; // sätt till true för att simulera position
+const SIMULERA = true; // sätt till true för att simulera position
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
